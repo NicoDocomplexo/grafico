@@ -1,69 +1,31 @@
-/* Estilo geral */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0; /* cor de fundo cinza claro */
-    color: #333; /* texto em cinza escuro */
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociais</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatório das Redes Sociais</h1>
+        <nav>
+            <a href="index.html">Mundo</a>
+            <a href="#">Minha escola</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <!-- Gráficos e textos serão carregados aqui -->
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Nicolas Hofmann</p>
+    </footer>
+    <script type="module" src="graficos/common.js"></script>
+    <script type="module" src="graficos/informacoesGlobais.js"></script>
+    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
+</body>
+</html>
 
-/* Cabeçalho */
-header {
-    background-color: #003366; /* azul escuro */
-    color: #ffffff; /* texto branco */
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-/* Navegação */
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.1em;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Seção de gráficos */
-.graficos-section {
-    padding: 20px;
-    background-color: #ffffff; /* fundo branco para a área dos gráficos */
-    margin-top: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
-}
-
-/* Rodapé */
-footer {
-    background-color: #003366; /* azul escuro */
-    color: #ffffff; /* texto branco */
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Link do footer */
-footer a {
-    color: #ffffff;
-    text-decoration: none;
-}
-footer a:hover {
-    text-decoration: underline;
-}
