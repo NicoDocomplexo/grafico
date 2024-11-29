@@ -1,0 +1,69 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* cor de fundo cinza claro */
+    color: #333; /* texto em cinza escuro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #003366; /* azul escuro */
+    color: #ffffff; /* texto branco */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de gráficos */
+.graficos-section {
+    padding: 20px;
+    background-color: #ffffff; /* fundo branco para a área dos gráficos */
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366; /* azul escuro */
+    color: #ffffff; /* texto branco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Link do footer */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
